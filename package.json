@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "write-csv": "^1.0.0"
+  }
+}

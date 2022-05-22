@@ -1,0 +1,24 @@
+{{#if message}}
+<div class="alert {{messageClass}}">
+  {{message}}
+</div>
+{{/if}}
+<form action="/register" method="POST">
+  <div class="mb-3">
+    Full name
+    <input type="text" class="form-control" name="fullName">
+  </div>
+  <div class="mb-3">
+    Email
+    <input type="email" class="form-control" name="email">
+  </div>
+  <div class="mb-3">
+    password
+    <input type="password" class="form-control" name="password">
+  </div>
+<div class="mb-3">
+    confirmPassword
+    <input type="password" class="form-control" name="confirmPassword">
+  </div>
+  <button type="submit" name="" class="btn btn-primary">Submit</button>
+</form>
